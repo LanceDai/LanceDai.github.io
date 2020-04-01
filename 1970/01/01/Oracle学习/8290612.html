@@ -1,0 +1,2866 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <link rel="canonical" href="https://blog.csdn.net/simonchi/article/details/8290612"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="renderer" content="webkit"/>
+    <meta name="force-rendering" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="referrer" content="always">
+    <meta http-equiv="Cache-Control" content="no-siteapp" /><link rel="alternate" media="handheld" href="#" />
+    <meta name="shenma-site-verification" content="5a59773ab8077d4a62bf469ab966a63b_1497598848">
+        <meta name="csdn-baidu-search"  content='{"autorun":true,"install":true,"keyword":"oracle    xxx(+)   where中在字段后面加（+） - 三也_攻城狮"}'>
+    
+    <link href="https://csdnimg.cn/public/favicon.ico" rel="SHORTCUT ICON">
+    <title>oracle    xxx(+)   where中在字段后面加（+） - 三也_攻城狮 - CSDN博客</title>
+
+        
+                    <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-2c3116505b.min.css">
+            
+        
+            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-9b39979775.min.css">
+        <script type="text/javascript">
+        var username = "chiweitree";
+        var blog_address = "https://blog.csdn.net/simonchi";
+        var static_host = "https://csdnimg.cn/release/phoenix/";
+        var currentUserName = "";
+        var isShowAds = false;
+        var isOwner = false;
+        var loginUrl = "http://passport.csdn.net/account/login?from=https://blog.csdn.net/simonchi/article/details/8290612"
+        var blogUrl = "https://blog.csdn.net/";
+
+        var curSkin = "skin3-template";
+        // 第四范式所需数据
+        var articleTitles = "oracle    xxx(+)   where中在字段后面加（+） - 三也_攻城狮";
+        
+        var nickName = "chiweitree";
+        var isCorporate = false;
+        var subDomainBlogUrl = "https://blog.csdn.net/"
+        var digg_base_url = "https://blog.csdn.net/simonchi/phoenix/comment";
+        var articleDetailUrl = "https://blog.csdn.net/chiweitree/article/details/8290612";
+    </script>
+    <script src="https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="https://csdnimg.cn/rabbit/exposure-click/main-1.0.6.js"></script>
+    <script src="//g.csdnimg.cn/??fixed-sidebar/1.1.3/fixed-sidebar.js,track/1.2.6/track.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css">
+    <style>
+        .MathJax, .MathJax_Message, .MathJax_Preview{
+            display: none
+        }
+    </style>
+</head>
+<body class="nodata " > 
+    <link rel="stylesheet" href="https://csdnimg.cn/public/common/toolbar/content_toolbar_css/content_toolbar.css">
+    <script id="toolbar-tpl-scriptId" src="https://csdnimg.cn/public/common/toolbar/js/content_toolbar.js" type="text/javascript" domain="https://blog.csdn.net/"></script>
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css">
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.css">
+<script type="text/javascript">
+	var NEWS_FEED = function(){}
+</script>
+
+<link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/chart-3456820cac.css" />
+<div class="container clearfix" id="mainBox">
+			<div class="recommend-right">
+  <ul class="recommend-fixed-box">
+    
+  </ul>
+</div>	    <main>
+        <div class="blog-content-box">
+  <div class="article-header-box">
+    <div class="article-header">
+      <div class="article-title-box">
+        <span class="article-type type-1 float-left">原</span>        <h1 class="title-article">oracle    xxx(+)   where中在字段后面加（+）</h1>
+      </div>
+      <div class="article-info-box">
+        <div class="article-bar-top">
+                                                  <span class="time">2012年12月13日 14:32:00</span>
+          <a class="follow-nickName" href="https://me.csdn.net/chiweitree" target="_blank">chiweitree</a>
+          <span class="read-count">阅读数 2159</span>
+          
+                                                      </div>
+        <div class="operating">
+                  </div>
+      </div>
+    </div>
+  </div>
+  <article class="baidu_pl">
+    <div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog" data-mod=popu_307 data-dsm="post">
+                                    <div class="article-copyright">
+                    
+                    版权声明：本文为博主原创文章，未经博主允许不得转载。                    https://blog.csdn.net/chiweitree/article/details/8290612                </div>
+                          <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-cd6c485e8b.css" />
+                              <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-cd6c485e8b.css" />
+          <div class="htmledit_views" id="content_views">
+            
+<span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;">不论把(+)写在等号左边项还是右边项，统称为外连接</span><br style="line-height:25px;font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;" /><br style="line-height:25px;font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;" /><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;">在内连接中，只返回那些在连接表中有匹配数据的数据行</span><br style="line-height:25px;font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;" /><br style="line-height:25px;font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;" /></span>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;">外连接即在被连接的表中加入一个空行来与没有匹配行的数据进行匹配</span></span></p>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;"><br /></span></span></p>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;"></span></span></p>
+<pre><code class="language-sql">SELECT   *
+  FROM   author, authorbook ab
+ WHERE   author.authorid = ab.authorid(+);</code></pre><img src="" alt="" /><br />
+上面是一个右外连接，所有的ab.authorid全部列出，不管author.authorid是否存在
+<p></p>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;"><br /></span></span></p>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;"></span></span></p>
+<pre><code class="language-sql">SELECT   *
+  FROM   author, authorbook ab
+ WHERE   author.authorid(+) = ab.authorid;</code></pre>左外连接
+<p></p>
+<p><span><span style="font-family:Arial, Helvetica, simsun, u5b8bu4f53;font-size:14px;line-height:25px;">列出author.authorid中有的<br /><br /></span></span></p>
+          </div>
+                  </div>
+  </article>
+</div>
+
+<div class="hide-article-box hide-article-pos text-center">
+      <a class="" id="btn-readmore" data-track-view='{"mod":"popu_376","con":",https://blog.csdn.net/simonchi/article/details/8290612,"}' data-track-click='{"mod":"popu_376","con":",https://blog.csdn.net/simonchi/article/details/8290612,"}'>
+    展开阅读全文
+    <svg class="icon chevrondown" aria-hidden="true">
+        <use xlink:href="#csdnc-chevrondown"></use>
+      </svg>
+    </a>
+    </div>
+<script>
+  $(".MathJax").remove();
+  if ($('div.markdown_views pre.prettyprint code.hljs').length > 0) {
+    $('div.markdown_views')[0].className = 'markdown_views';
+  }
+</script>        <div class="recommend-box"><div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/drbing/article/details/51848529,BlogCommendFromMachineLearnPai_0"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/drbing/article/details/51848529,BlogCommendFromMachineLearnPai_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/drbing/article/details/51848529" target="_blank" title="Oracle中连接与加号的使用">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>中连接与加号的使用		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4785</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/drbing/article/details/51848529" target="_blank" title="Oracle中连接与加号的使用">
+				<span class="desc oneline">1、左外连接（Leftouterjoin/leftjoin）   leftjoin是以左表的记录为基础的,左表的记录将会全部表示出来,而右表只会显示符合搜索条件的记录。右表记录不足的地方均为NULL....</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/drbing">来自：	<span class="blog_title"> drbing的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+</div>        <a id="commentBox"></a>
+<div class="comment-box">
+	
+	<div class="comment-edit-box d-flex">
+		<a id="commentsedit"></a>
+		<div class="user-img">
+			<a href="javascript:void(0);" target="_blank">
+				<img class="show_loginbox" src="//g.csdnimg.cn/static/user-img/anonymous-User-img.png">
+			</a>
+		</div>
+		<form id="commentform">
+			<input type="hidden" id="comment_replyId">
+			<textarea class="comment-content" name="comment_content" id="comment_content" placeholder="想对作者说点什么"></textarea>
+			<div class="opt-box"> <!-- d-flex -->
+				<div id="ubbtools" class="add_code">
+					<a href="#insertcode" code="code" target="_self"><i class="icon iconfont icon-daima"></i></a>
+				</div>
+				<input type="hidden" id="comment_replyId" name="comment_replyId">
+				<input type="hidden" id="article_id" name="article_id" value="8290612">
+				<input type="hidden" id="comment_userId" name="comment_userId" value="">
+				<input type="hidden" id="commentId" name="commentId" value="">
+				<div style="display: none;" class="csdn-tracking-statistics tracking-click" data-mod="popu_384"><a href="#" target="_blank" class="comment_area_btn">发表评论</a></div>
+				<div class="dropdown" id="myDrap">
+					<a class="dropdown-face d-flex align-items-center" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+					<div class="txt-selected text-truncate">添加代码片</div>
+					<svg class="icon d-block" aria-hidden="true">
+						<use xlink:href="#csdnc-triangledown"></use>
+					</svg>
+					</a>
+					<ul class="dropdown-menu" id="commentCode" aria-labelledby="drop4">
+						<li><a data-code="html">HTML/XML</a></li>
+						<li><a data-code="objc">objective-c</a></li>
+						<li><a data-code="ruby">Ruby</a></li>
+						<li><a data-code="php">PHP</a></li>
+						<li><a data-code="csharp">C</a></li>
+						<li><a data-code="cpp">C++</a></li>
+						<li><a data-code="javascript">JavaScript</a></li>
+						<li><a data-code="python">Python</a></li>
+						<li><a data-code="java">Java</a></li>
+						<li><a data-code="css">CSS</a></li>
+						<li><a data-code="sql">SQL</a></li>
+						<li><a data-code="plain">其它</a></li>
+					</ul>
+				</div>  
+				<div class="right-box">
+					<span id="tip_comment" class="tip">还能输入<em>1000</em>个字符</span>
+					<input type="button" class="btn btn-sm btn-cancel d-none" value="取消回复">
+					<input type="submit" class="btn btn-sm btn-red btn-comment" value="发表评论">
+				</div>
+			</div>
+		</form>
+	</div>
+
+		<div class="comment-list-container">
+		<a id="comments"></a>
+		<div class="comment-list-box">
+		</div>
+		<div id="commentPage" class="pagination-box d-none"></div>
+		<div class="opt-box text-center">
+			<div class="btn btn-sm btn-link-blue" id="btnMoreComment"></div>
+		</div>
+	</div>
+</div>
+        <div class="recommend-box">
+                            <div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/zht100151/article/details/73130753,BlogCommendFromBaidu_1"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zht100151/article/details/73130753,BlogCommendFromBaidu_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zht100151/article/details/73130753" target="_blank" title="ORACLE 字段过滤 字段后面加(+)是什么意思">
+		<h4 class="text-truncate oneline">
+				<em>ORACLE</em> <em>字段</em>过滤 <em>字段</em><em>后面</em>加(+)是什么意思		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-12</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3334</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zht100151/article/details/73130753" target="_blank" title="ORACLE 字段过滤 字段后面加(+)是什么意思">
+				<span class="desc oneline">selectp.fdept_id,decode(p.fis_allow_edit,'Y','0',null)ftalbe_desc,t.* fromhthis.p_cp_tablet,hthis.PS...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zht100151">来自：	<span class="blog_title"> zht100151的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/iteye_14994/article/details/81649730,BlogCommendFromQuerySearch_2"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/iteye_14994/article/details/81649730,BlogCommendFromQuerySearch_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/iteye_14994/article/details/81649730" target="_blank" title="数据库sql语句在where中同样可以使用条件判断">
+		<h4 class="text-truncate oneline">
+				数据库sql语句在<em>where</em>中同样可以使用条件判断		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-27</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					437</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/iteye_14994/article/details/81649730" target="_blank" title="数据库sql语句在where中同样可以使用条件判断">
+				<span class="desc oneline">[color=green]★★★本篇为原创，需要引用转载的朋友请注明：《http://stephen830.iteye.com/blog/280573》谢谢支持！★★★[/color]在一般情况下，S...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/iteye_14994">来自：	<span class="blog_title"> stephen830</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/jxs_king/article/details/84003863,BlogCommendFromQuerySearch_3"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/jxs_king/article/details/84003863,BlogCommendFromQuerySearch_3"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/jxs_king/article/details/84003863" target="_blank" title="oracle  查询语句where 后 and or 判断的灵活运用">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em>  查询语句<em>where</em> 后 and or 判断的灵活运用		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					85</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/jxs_king/article/details/84003863" target="_blank" title="oracle  查询语句where 后 and or 判断的灵活运用">
+				<span class="desc oneline">selectt.creator建单人,t.titles工单主题,t.statusdisplay工单状态,t.serialnumber流水号fromup_itsm_isstjoinv_depart_in...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/jxs_king">来自：	<span class="blog_title"> jxs_king的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/u010752082/article/details/47726461,BlogCommendFromQuerySearch_4"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u010752082/article/details/47726461,BlogCommendFromQuerySearch_4"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u010752082/article/details/47726461" target="_blank" title="关于Oracle在where子句中引用列别名问题的分析">
+		<h4 class="text-truncate oneline">
+				关于<em>Oracle</em>在<em>where</em>子句中引用列别名问题的分析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4191</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u010752082/article/details/47726461" target="_blank" title="关于Oracle在where子句中引用列别名问题的分析">
+				<span class="desc oneline">SQL&gt;SELECTSALSALARYFROMEMPWHERESALARYWarning:connectionwaslostandre-establishedSELECTSALSALARYFROMEM...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u010752082">来自：	<span class="blog_title"> GZL的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_26171035/article/details/86518769,BlogCommendFromQuerySearch_5"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_26171035/article/details/86518769,BlogCommendFromQuerySearch_5"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_26171035/article/details/86518769" target="_blank" title="Oracle中用decode或nvl实现对where后面的条件进行if判断">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>中用decode或nvl实现对<em>where</em><em>后面</em>的条件进行if判断		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					656</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_26171035/article/details/86518769" target="_blank" title="Oracle中用decode或nvl实现对where后面的条件进行if判断">
+				<span class="desc oneline">当需要用的对表中某个字段的不同状态进行条件变化时用decode或nvl来实现select*fromcj0703wherenvl(hkjs0101id,zdid)='00001';...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_26171035">来自：	<span class="blog_title"> qq_26171035的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/work201003/article/details/45295741,BlogCommendFromQuerySearch_6"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/work201003/article/details/45295741,BlogCommendFromQuerySearch_6"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/work201003/article/details/45295741" target="_blank" title="Oracle Where查询语句与排序语句">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> <em>Where</em>查询语句与排序语句		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2169</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/work201003/article/details/45295741" target="_blank" title="Oracle Where查询语句与排序语句">
+				<span class="desc oneline">SQL限制和排序数据1、Oracle的Where条件值，字符串和日期都必须以单引号括起来。模糊查询：like'S%'以S开头的任意字符like'S_'以S开头的任意字符结尾的两个字符like'_o%'...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/work201003">来自：	<span class="blog_title"> 拉斐尔-Raphael</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_33666602/article/details/80280122,BlogCommendFromQuerySearch_7"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_33666602/article/details/80280122,BlogCommendFromQuerySearch_7"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_33666602/article/details/80280122" target="_blank" title="Oracle对where条件中有null值字段的处理">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>对<em>where</em>条件中有null值<em>字段</em>的处理		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-11</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4057</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_33666602/article/details/80280122" target="_blank" title="Oracle对where条件中有null值字段的处理">
+				<span class="desc oneline">如果返回结果中一个字段的值为null,那么如果使用该null值字段作为where条件时会有查不到的情况！例如：selectc_flagc_idfromtabwhere1=1查询结果：下面使用有null...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_33666602">来自：	<span class="blog_title"> 爱码僧的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/machinecat0898/article/details/45788273,BlogCommendFromQuerySearch_8"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/machinecat0898/article/details/45788273,BlogCommendFromQuerySearch_8"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/machinecat0898/article/details/45788273" target="_blank" title="注意区分left join on 后面的条件 和where 后面的条件">
+		<h4 class="text-truncate oneline">
+				注意区分left join on <em>后面</em>的条件 和<em>where</em> <em>后面</em>的条件		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5460</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/machinecat0898/article/details/45788273" target="_blank" title="注意区分left join on 后面的条件 和where 后面的条件">
+				<span class="desc oneline">有两张表，项目表bizProject和专家投票表ExpertVote， 需要做一个功能让登录人进行反复投票，也就是查询出登录人未投票和已经投票过的项目。   项目表的字段有：主键(ID)、项目名称(p...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/machinecat0898">来自：	<span class="blog_title"> machinecat0898的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/CQL_K21/article/details/88621118,BlogCommendFromQuerySearch_9"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/CQL_K21/article/details/88621118,BlogCommendFromQuerySearch_9"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/CQL_K21/article/details/88621118" target="_blank" title="Oracle where后面不能接聚合函数的原因？">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> <em>where</em><em>后面</em>不能接聚合函数的原因？		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-17</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					86</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/CQL_K21/article/details/88621118" target="_blank" title="Oracle where后面不能接聚合函数的原因？">
+				<span class="desc oneline">聚合函数是针对结构集进行的，但是where条件并不是在查询出结果集之后运行，所以主函数放在where语句中，会出现错误。...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/CQL_K21">来自：	<span class="blog_title"> 花无涯的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/Ideality_hunter/article/details/77840027,BlogCommendFromQuerySearch_10"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/Ideality_hunter/article/details/77840027,BlogCommendFromQuerySearch_10"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/Ideality_hunter/article/details/77840027" target="_blank" title="oracle字符串拼接，在后面追加字符串等">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em>字符串拼接，在<em>后面</em>追加字符串等		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-04</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4672</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/Ideality_hunter/article/details/77840027" target="_blank" title="oracle字符串拼接，在后面追加字符串等">
+				<span class="desc oneline">两种方式：1）||2）concat</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/Ideality_hunter">来自：	<span class="blog_title"> Ideality_hunter的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+			<div class="recommend-item-box blog-expert-recommend-box">
+			<div class="d-flex">
+				<div class="blog-expert-recommend">
+					<div class="blog-expert">
+						<div class="blog-expert-flexbox"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/zhengjianqi/article/details/7745076,BlogCommendFromQuerySearch_11"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zhengjianqi/article/details/7745076,BlogCommendFromQuerySearch_11"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zhengjianqi/article/details/7745076" target="_blank" title="Oracle SQL 动态拼接Where后面的筛选条件">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> SQL 动态拼接<em>Where</em><em>后面</em>的筛选条件		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-13</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zhengjianqi/article/details/7745076" target="_blank" title="Oracle SQL 动态拼接Where后面的筛选条件">
+				<span class="desc oneline">TBL_NAMECOLM_NAMEOPER_CODERULE_CMPAR_VALUEAND_OR_ORSTORE_DISTRORTE_ID=22410034ASTORE_MASTERZONE=贵州需要...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zhengjianqi">来自：	<span class="blog_title"> zhengjianqi的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/yuzhaocong/article/details/78207217,BlogCommendFromQuerySearch_12"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/yuzhaocong/article/details/78207217,BlogCommendFromQuerySearch_12"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yuzhaocong/article/details/78207217" target="_blank" title="Oracle数据库(where语句和列表达式)">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>数据库(<em>where</em>语句和列表达式)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-11</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1486</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yuzhaocong/article/details/78207217" target="_blank" title="Oracle数据库(where语句和列表达式)">
+				<span class="desc oneline">1.Where语句关系运算：&gt;、、&gt;=、逻辑运算符：not、and、orisnull：是否为空between：在某两个值之间in：一系列值中like：相似值的比较exits：是否存在符号条件的数据un...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yuzhaocong">来自：	<span class="blog_title"> yuzhaocong的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/aiyinsitan215/article/details/10495707,BlogCommendFromQuerySearch_13"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/aiyinsitan215/article/details/10495707,BlogCommendFromQuerySearch_13"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/aiyinsitan215/article/details/10495707" target="_blank" title="oracle 查询语句后面的where条件为null就不需要">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em> 查询语句<em>后面</em>的<em>where</em>条件为null就不需要		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-29</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					760</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/aiyinsitan215/article/details/10495707" target="_blank" title="oracle 查询语句后面的where条件为null就不需要">
+				<span class="desc oneline">oracle查询语句后面的where条件为null不需要</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/aiyinsitan215">来自：	<span class="blog_title"> aiyinsitan215的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_44075537/article/details/85033084,BlogCommendFromQuerySearch_14"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_44075537/article/details/85033084,BlogCommendFromQuerySearch_14"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_44075537/article/details/85033084" target="_blank" title="Oracle (03)分组子句.where条件 与 having条件的区别.子查询.DDL.DML.数据的增删改.TCL">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> (03)分组子句.<em>where</em>条件 与 having条件的区别.子查询.DDL.DML.数据的增删改.TCL		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					125</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_44075537/article/details/85033084" target="_blank" title="Oracle (03)分组子句.where条件 与 having条件的区别.子查询.DDL.DML.数据的增删改.TCL">
+				<span class="desc oneline">昨天作业的回顾**显示员工的id,last_name,salary,部门名称,要求,把没有部门编号的员工也给查询到:前置条件:公司业务需要,把员工编号为232425的员工分配到了新的部门,但是部门还未...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_44075537">来自：	<span class="blog_title"> 程序员哦的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/sunny1660/article/details/79717072,BlogCommendFromQuerySearch_15"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/sunny1660/article/details/79717072,BlogCommendFromQuerySearch_15"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/sunny1660/article/details/79717072" target="_blank" title="SQL左右连接中的on  and和on  where区别">
+		<h4 class="text-truncate oneline">
+				SQL左右连接中的on  and和on  <em>where</em>区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-28</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					337</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/sunny1660/article/details/79717072" target="_blank" title="SQL左右连接中的on  and和on  where区别">
+				<span class="desc oneline">转载地址：https://blog.csdn.net/xingzhemoluo/article/details/39677891在使用left join时，on and与on where条件的区别：1...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/sunny1660">来自：	<span class="blog_title"> sunny1660的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/z479403374/article/details/51781639,BlogCommendFromQuerySearch_16"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/z479403374/article/details/51781639,BlogCommendFromQuerySearch_16"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/z479403374/article/details/51781639" target="_blank" title="SQL中关于where后面不能放聚合函数（如sum等）的解决办法">
+		<h4 class="text-truncate oneline">
+				SQL中关于<em>where</em><em>后面</em>不能放聚合函数（如sum等）的解决办法		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-29</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/z479403374/article/details/51781639" target="_blank" title="SQL中关于where后面不能放聚合函数（如sum等）的解决办法">
+				<span class="desc oneline">我们在编写较为复杂的SQL语句的时候，常常会遇到需要将sum（）放到where后面作为条件查询，事实证明这样是无法执行的，执行会报【此处不允许使用分组函数】异常。那么如何解决呢，使用HAVING关键字...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/z479403374">来自：	<span class="blog_title"> 生活充满节奏感</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/cscscscsc/article/details/51150332,BlogCommendFromQuerySearch_17"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/cscscscsc/article/details/51150332,BlogCommendFromQuerySearch_17"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/cscscscsc/article/details/51150332" target="_blank" title="WHERE IN LIST问题解析 –丁俊">
+		<h4 class="text-truncate oneline">
+				<em>WHERE</em> IN LIST问题解析 –丁俊		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-14</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3606</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/cscscscsc/article/details/51150332" target="_blank" title="WHERE IN LIST问题解析 –丁俊">
+				<span class="desc oneline">摘要：这篇文章重点是SQL语句优化，构造SQL，所有的测试都是基于IN子句进行的，正如题目所写，当然与其他的，比如exists，join等是相通的。包括动态SQL构造，解决办法，以及whereinli...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/cscscscsc">来自：	<span class="blog_title"> Csong的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/lanse7600/article/details/84880000,BlogCommendFromQuerySearch_18"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lanse7600/article/details/84880000,BlogCommendFromQuerySearch_18"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lanse7600/article/details/84880000" target="_blank" title="oracle 对返回数据和where进行判断 case  when">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em> 对返回数据和<em>where</em>进行判断 case  when		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-30</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					713</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lanse7600/article/details/84880000" target="_blank" title="oracle 对返回数据和where进行判断 case  when">
+				<span class="desc oneline">  1.对返回值进行判断。selectoper.opid,oper.user_name,oper.user_host,casewhenoper.oper_type=1then'SystemManage...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lanse7600">来自：	<span class="blog_title"> lanse7600的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/guoxingege/article/details/51507066,BlogCommendFromQuerySearch_19"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/guoxingege/article/details/51507066,BlogCommendFromQuerySearch_19"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/guoxingege/article/details/51507066" target="_blank" title="LEFT JOIN ON 后面跟多个条件和Where的区别">
+		<h4 class="text-truncate oneline">
+				LEFT JOIN ON <em>后面</em>跟多个条件和<em>Where</em>的区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-26</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/guoxingege/article/details/51507066" target="_blank" title="LEFT JOIN ON 后面跟多个条件和Where的区别">
+				<span class="desc oneline">LEFTJOINON后面跟多个条件和Where的区别,如果认为LEFTJOIN的On后面跟的条件和写在Where后面一样，那你就错了,测试LEFTJOIN发现，ON后面跟了好几个条件...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/guoxingege">来自：	<span class="blog_title"> Star.Guo的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/shangboerds/article/details/46561027,BlogCommendFromQuerySearch_20"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/shangboerds/article/details/46561027,BlogCommendFromQuerySearch_20"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/shangboerds/article/details/46561027" target="_blank" title="Oracle 尽量避免在 SQL语句的WHERE子句中使用函数">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> 尽量避免在 SQL语句的<em>WHERE</em>子句中使用函数		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4957</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/shangboerds/article/details/46561027" target="_blank" title="Oracle 尽量避免在 SQL语句的WHERE子句中使用函数">
+				<span class="desc oneline">--Start在WHERE子句中应该尽量避免在列上使用函数，因为这样做会使该列上的索引失效，影响SQL语句的性能。即使该列上没有索引，也应该避免在列上使用函数。考虑下面的情况：CREATETABLEE...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/shangboerds">来自：	<span class="blog_title"> 千里之行始于足下</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/changliangwl/article/details/42777551,BlogCommendFromQuerySearch_21"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/changliangwl/article/details/42777551,BlogCommendFromQuerySearch_21"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/changliangwl/article/details/42777551" target="_blank" title="关于order by后面接条件查询">
+		<h4 class="text-truncate oneline">
+				关于order by<em>后面</em>接条件查询		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4242</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/changliangwl/article/details/42777551" target="_blank" title="关于order by后面接条件查询">
+				<span class="desc oneline">orderby后加接特殊条件的查询-------------有点类似groupby效果</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/changliangwl">来自：	<span class="blog_title"> changliangwl的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/zengxuewen2045/article/details/51232209,BlogCommendFromQuerySearch_22"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zengxuewen2045/article/details/51232209,BlogCommendFromQuerySearch_22"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zengxuewen2045/article/details/51232209" target="_blank" title="mysql max函数不能用在where条件中的案例">
+		<h4 class="text-truncate oneline">
+				mysql max函数不能用在<em>where</em>条件中的案例		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-24</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zengxuewen2045/article/details/51232209" target="_blank" title="mysql max函数不能用在where条件中的案例">
+				<span class="desc oneline">案例背景： 版主在&quot;mysql表的字符集uft8转换成gbk测试&quot;一文中，blog位置见：&quot;http://blog.csdn.net/zengxuewen2045/article/details/51...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zengxuewen2045">来自：	<span class="blog_title"> zengxuewen2045的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/u012122372/article/details/53608077,BlogCommendFromQuerySearch_23"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u012122372/article/details/53608077,BlogCommendFromQuerySearch_23"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u012122372/article/details/53608077" target="_blank" title="left join  on后面 加条件和where后面加条件的区别">
+		<h4 class="text-truncate oneline">
+				left join  on<em>后面</em> 加条件和<em>where</em><em>后面</em>加条件的区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-13</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6120</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u012122372/article/details/53608077" target="_blank" title="left join  on后面 加条件和where后面加条件的区别">
+				<span class="desc oneline">on后面直接加条件的话，不会对左边的表产生影响，on条件是在左关联时候的条件，不管如何都会返回左边表中的记录where加条件才会对左边的表生效。where条件是关联查询之后的条件...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u012122372">来自：	<span class="blog_title"> 柯哒哒的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_25775675/article/details/77676240,BlogCommendFromQuerySearch_24"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_25775675/article/details/77676240,BlogCommendFromQuerySearch_24"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_25775675/article/details/77676240" target="_blank" title="Oracle 批量insert  插入数据">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em> 批量insert  插入数据		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-29</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					875</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_25775675/article/details/77676240" target="_blank" title="Oracle 批量insert  插入数据">
+				<span class="desc oneline">一、插入的语法INSERTINTOSC_PROP(A,B,C)(select'1','2','3'fromdualwhere1=1);</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_25775675">来自：	<span class="blog_title"> qq_25775675的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/alex0307/article/details/48368953,BlogCommendFromQuerySearch_25"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/alex0307/article/details/48368953,BlogCommendFromQuerySearch_25"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/alex0307/article/details/48368953" target="_blank" title="ORACLE 在WHERE子句中引用列别名问题">
+		<h4 class="text-truncate oneline">
+				<em>ORACLE</em> 在<em>WHERE</em>子句中引用列别名问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-11</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					317</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/alex0307/article/details/48368953" target="_blank" title="ORACLE 在WHERE子句中引用列别名问题">
+				<span class="desc oneline">来源：http://blog.sina.com.cn/s/blog_5384afff0100y6o9.html作者：ygslSQL&gt;SELECTSALSALARYFROMEMPWHERESALARYW...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/alex0307">来自：	<span class="blog_title"> alex0307的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_42639445/article/details/81347039,BlogCommendFromQuerySearch_26"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_42639445/article/details/81347039,BlogCommendFromQuerySearch_26"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_42639445/article/details/81347039" target="_blank" title="Oracle使用别名进行WHERE条件判断">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>使用别名进行<em>WHERE</em>条件判断		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-01</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					918</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_42639445/article/details/81347039" target="_blank" title="Oracle使用别名进行WHERE条件判断">
+				<span class="desc oneline">举例:查询公司所有部门的工资排名第二人的信息SELECTENAME,DEPTNO,SAL,RANK()OVER(PARTITIONBYDEPTNOORDERBYSALDESC)&amp;quot;RANK&amp;q...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_42639445">来自：	<span class="blog_title"> weixin_42639445的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/launch_225/article/details/25509089,BlogCommendFromQuerySearch_27"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/launch_225/article/details/25509089,BlogCommendFromQuerySearch_27"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/launch_225/article/details/25509089" target="_blank" title="组合索引，前置列与where条件关系">
+		<h4 class="text-truncate oneline">
+				组合索引，前置列与<em>where</em>条件关系		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1439</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/launch_225/article/details/25509089" target="_blank" title="组合索引，前置列与where条件关系">
+				<span class="desc oneline">SQL&gt;createtablet1asselect*fromdba_objects;Tablecreated.SQL&gt;createindexidx_zont1(object_id,owner);Ind...</span>
+			</a>
+			<span class="blog_title_box oneline no-title">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/dzy21/article/details/51788670,BlogCommendFromQuerySearch_28"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/dzy21/article/details/51788670,BlogCommendFromQuerySearch_28"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/dzy21/article/details/51788670" target="_blank" title="Oracle查询结果加一个'全部'条件">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>查询结果加一个'全部'条件		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-30</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					875</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/dzy21/article/details/51788670" target="_blank" title="Oracle查询结果加一个'全部'条件">
+				<span class="desc oneline">在查询省份作为检索条件，需要添加一个全部的条件，就想在SQL中添加一个'全部'的检索条件，结果一个SQL写了6次才写对，郁闷selectdp.province_id,dp.province_namef...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/dzy21">来自：	<span class="blog_title"> 午-夜</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/pzasdq/article/details/51725179,BlogCommendFromQuerySearch_29"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/pzasdq/article/details/51725179,BlogCommendFromQuerySearch_29"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/pzasdq/article/details/51725179" target="_blank" title="SQL的WHERE子句中包含多个AND和OR">
+		<h4 class="text-truncate oneline">
+				SQL的<em>WHERE</em>子句中包含多个AND和OR		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-21</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/pzasdq/article/details/51725179" target="_blank" title="SQL的WHERE子句中包含多个AND和OR">
+				<span class="desc oneline">转：http://my.oschina.net/xinxingegeya/blog/220122 摘要SQL的WHERE子句中包含多个AND和ORSQL的WHERE子句中包含多个AND和OR关于sql...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/pzasdq">来自：	<span class="blog_title"> knowledge->study->calm->love  </span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/yixiaotian1988/article/details/7916371,BlogCommendFromQuerySearch_30"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/yixiaotian1988/article/details/7916371,BlogCommendFromQuerySearch_30"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/yixiaotian1988/article/details/7916371" target="_blank" title="sql  条件加在  left join  与where后面的区别">
+		<h4 class="text-truncate oneline">
+				sql  条件加在  left join  与<em>where</em><em>后面</em>的区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-28</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/yixiaotian1988/article/details/7916371" target="_blank" title="sql  条件加在  left join  与where后面的区别">
+				<span class="desc oneline">做项目时遇到一问题，前台页面查询数据查不到，后台能查询到数据，百思不得其解，查询的sql如下：select* fromxxxpoileftjoinyyycssonpoi.ORG_ID=css.ORG_...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/yixiaotian1988">来自：	<span class="blog_title"> 一笑天</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_34110755/article/details/78971513,BlogCommendFromQuerySearch_31"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_34110755/article/details/78971513,BlogCommendFromQuerySearch_31"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_34110755/article/details/78971513" target="_blank" title="sql:case when的各种用法及怎么把case when放在where里面作为条件表达式">
+		<h4 class="text-truncate oneline">
+				sql:case when的各种用法及怎么把case when放在<em>where</em>里面作为条件表达式		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-04</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_34110755/article/details/78971513" target="_blank" title="sql:case when的各种用法及怎么把case when放在where里面作为条件表达式">
+				<span class="desc oneline">一般用法1select (casewhen1=2or'a'like'%b%'then'a'when1=4or'b'in('b','bb')then'b'else'c' end)astestFieldf...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_34110755">来自：	<span class="blog_title"> qq_34110755的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/u013600225/article/details/51166688,BlogCommendFromQuerySearch_32"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/u013600225/article/details/51166688,BlogCommendFromQuerySearch_32"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/u013600225/article/details/51166688" target="_blank" title="Oracle中的where部分的各个条件的执行顺序（右-&gt;左）">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>中的<em>where</em>部分的各个条件的执行顺序（右-&gt;左）		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/u013600225/article/details/51166688" target="_blank" title="Oracle中的where部分的各个条件的执行顺序（右-&gt;左）">
+				<span class="desc oneline">原网址：http://blog.sina.com.cn/s/blog_7e4ac8b50100vcwv.htmlSQL条件字段(Where部分)的分析和执行顺序[右——&gt;左]实验一：证明了SQL的语法...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/u013600225">来自：	<span class="blog_title"> zhang的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/netswing/article/details/8781541,BlogCommendFromQuerySearch_33"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/netswing/article/details/8781541,BlogCommendFromQuerySearch_33"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/netswing/article/details/8781541" target="_blank" title="在where中使用decode函数">
+		<h4 class="text-truncate oneline">
+				在<em>where</em>中使用decode函数		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">04-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3241</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/netswing/article/details/8781541" target="_blank" title="在where中使用decode函数">
+				<span class="desc oneline">在where中使用decode函数达到要求。select*fromzjk_pos_supplier_orderwhere((decode(:code,NULL,1,0)=1)orcode=:code)...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/netswing">来自：	<span class="blog_title"> 磨砺</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_17612199/article/details/52589549,BlogCommendFromQuerySearch_34"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_17612199/article/details/52589549,BlogCommendFromQuerySearch_34"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_17612199/article/details/52589549" target="_blank" title="sql语句的where条件顺序和索引的顺序">
+		<h4 class="text-truncate oneline">
+				sql语句的<em>where</em>条件顺序和索引的顺序		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-19</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					4628</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_17612199/article/details/52589549" target="_blank" title="sql语句的where条件顺序和索引的顺序">
+				<span class="desc oneline">建表CREATETABLE`Problem_submit`(`id`int(11)NOTNULLAUTO_INCREMENT,`status`int(11)NOTNULL,`user_id`int(1...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_17612199">来自：	<span class="blog_title"> wwhhff11</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq993461639/article/details/44495829,BlogCommendFromQuerySearch_35"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq993461639/article/details/44495829,BlogCommendFromQuerySearch_35"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq993461639/article/details/44495829" target="_blank" title="oracle where 后面的条件中|| 是什么意思">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em> <em>where</em> <em>后面</em>的条件中|| 是什么意思		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">03-20</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3536</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq993461639/article/details/44495829" target="_blank" title="oracle where 后面的条件中|| 是什么意思">
+				<span class="desc oneline">oraclewhere后面的条件中||是连接符号，Oracle中还有一个concat函数可以连接两个字符串concat(a,b)Oracle中nvl函数的用法和作用是什么？如果你某个字段为空，但是你想...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq993461639">来自：	<span class="blog_title"> qq993461639的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/lmb55/article/details/85081591,BlogCommendFromQuerySearch_36"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lmb55/article/details/85081591,BlogCommendFromQuerySearch_36"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lmb55/article/details/85081591" target="_blank" title="Left join后用and和where的区别">
+		<h4 class="text-truncate oneline">
+				Left join后用and和<em>where</em>的区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					225</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lmb55/article/details/85081591" target="_blank" title="Left join后用and和where的区别">
+				<span class="desc oneline">Leftjoin左连接，得到的是左表的所有数据拼接右表符合on条件的数据。on后用and连接，都作为on条件。on后用where连接，where作为筛选条件，则是匹配两个条件相同的结果集。on后用wh...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lmb55">来自：	<span class="blog_title"> lmb55的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/tm1147421255/article/details/80612155,BlogCommendFromQuerySearch_37"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/tm1147421255/article/details/80612155,BlogCommendFromQuerySearch_37"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/tm1147421255/article/details/80612155" target="_blank" title="oracle 外连接以及用on和where 的区别">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em> 外连接以及用on和<em>where</em> 的区别		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-07</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					477</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/tm1147421255/article/details/80612155" target="_blank" title="oracle 外连接以及用on和where 的区别">
+				<span class="desc oneline">Oracle 外连接(OUTER JOIN)包括以下：左外连接(左边的表不加限制)右外连接(右边的表不加限制)全外连接(左右两表都不加限制)对应SQL：LEFT/RIGHT/FULLOUTERJOIN...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/tm1147421255">来自：	<span class="blog_title"> tm1147421255的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/q1054261752/article/details/49766271,BlogCommendFromQuerySearch_38"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/q1054261752/article/details/49766271,BlogCommendFromQuerySearch_38"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/q1054261752/article/details/49766271" target="_blank" title="在where子句中使用子查询">
+		<h4 class="text-truncate oneline">
+				在<em>where</em>子句中使用子查询		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-10</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					7061</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/q1054261752/article/details/49766271" target="_blank" title="在where子句中使用子查询">
+				<span class="desc oneline">这里有三种查询的结构：单行单列、单行多列、多行单列1.子查询返回单行单列数据例如：查询出基本工资比ALLEN低的全部雇员信息。步骤一：找出ALLEN的工资步骤二：此时的查询返回的是单行单列的数据，这样...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/q1054261752">来自：	<span class="blog_title"> q1054261752的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/shuaishifu/article/details/40450277,BlogCommendFromQuerySearch_39"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/shuaishifu/article/details/40450277,BlogCommendFromQuerySearch_39"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/shuaishifu/article/details/40450277" target="_blank" title="IN 函数 和 and 在where条件中联合使用的注意事项：">
+		<h4 class="text-truncate oneline">
+				IN 函数 和 and 在<em>where</em>条件中联合使用的注意事项：		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">10-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1741</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/shuaishifu/article/details/40450277" target="_blank" title="IN 函数 和 and 在where条件中联合使用的注意事项：">
+				<span class="desc oneline">IN函数</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/shuaishifu">来自：	<span class="blog_title"> shuaishifu的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/xiaozengtongxue/article/details/80773636,BlogCommendFromQuerySearch_40"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/xiaozengtongxue/article/details/80773636,BlogCommendFromQuerySearch_40"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/xiaozengtongxue/article/details/80773636" target="_blank" title="oracle、mysql、hive中的字段别名是否可以在where、group by、having、order by中直接使用">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em>、mysql、hive中的<em>字段</em>别名是否可以在<em>where</em>、group by、having、order by中直接使用		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">06-22</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					816</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/xiaozengtongxue/article/details/80773636" target="_blank" title="oracle、mysql、hive中的字段别名是否可以在where、group by、having、order by中直接使用">
+				<span class="desc oneline">Mysql版本5.7.20where中不能直接使用字段的别名，groupby、having、orderby可以直接使用Oracle版本12c where、groupby、having中不能直接使用字段...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/xiaozengtongxue">来自：	<span class="blog_title"> xiaozengtongxue的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq_36935391/article/details/81874457,BlogCommendFromQuerySearch_41"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq_36935391/article/details/81874457,BlogCommendFromQuerySearch_41"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq_36935391/article/details/81874457" target="_blank" title="Like后面跟子查询">
+		<h4 class="text-truncate oneline">
+				Like<em>后面</em>跟子查询		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-20</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					682</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq_36935391/article/details/81874457" target="_blank" title="Like后面跟子查询">
+				<span class="desc oneline">selectid, name fromregionwhereMergerNamelike concat('%',(selectname fromregionwhereid='150000'),'%')...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq_36935391">来自：	<span class="blog_title"> qq_36935391的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_44129250/article/details/85944699,BlogCommendFromQuerySearch_42"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/weixin_44129250/article/details/85944699,BlogCommendFromQuerySearch_42"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/weixin_44129250/article/details/85944699" target="_blank" title="SQL中join on后面加where还是and的问题">
+		<h4 class="text-truncate oneline">
+				SQL中join on<em>后面</em>加<em>where</em>还是and的问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-06</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1022</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/weixin_44129250/article/details/85944699" target="_blank" title="SQL中join on后面加where还是and的问题">
+				<span class="desc oneline">原博：https://blog.csdn.net/qq_41973536/article/details/81081024join关键字的作用是将多个表按一定的条件联合起来，从而可以实现从多个表中获取...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/weixin_44129250">来自：	<span class="blog_title"> 请加油吧</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/lhooouuu/article/details/6430015,BlogCommendFromQuerySearch_43"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/lhooouuu/article/details/6430015,BlogCommendFromQuerySearch_43"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/lhooouuu/article/details/6430015" target="_blank" title="oracle通配符,运算符的使用, 冒号问题">
+		<h4 class="text-truncate oneline">
+				<em>oracle</em>通配符,运算符的使用, 冒号问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3871</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/lhooouuu/article/details/6430015" target="_blank" title="oracle通配符,运算符的使用, 冒号问题">
+				<span class="desc oneline">用于where比较条件的有：    等于：=、=、          &gt;,=.</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/lhooouuu">来自：	<span class="blog_title"> java journey</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/liuxiao723846/article/details/48154705,BlogCommendFromQuerySearch_44"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/liuxiao723846/article/details/48154705,BlogCommendFromQuerySearch_44"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/liuxiao723846/article/details/48154705" target="_blank" title="sql语句中where、group by、having、order by 是否可以使用别名">
+		<h4 class="text-truncate oneline">
+				sql语句中<em>where</em>、group by、having、order by 是否可以使用别名		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">09-01</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6776</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/liuxiao723846/article/details/48154705" target="_blank" title="sql语句中where、group by、having、order by 是否可以使用别名">
+				<span class="desc oneline">1、在mysql中，groupby中可以使用别名；where中不能使用别名；orderby中可以使用别名。2、在oracle中：1）where/groupby/having子句中只能直接使用栏位或者常...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/liuxiao723846">来自：	<span class="blog_title"> 赶路人儿</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/wangfeng8317/article/details/2032192,BlogCommendFromQuerySearch_45"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/wangfeng8317/article/details/2032192,BlogCommendFromQuerySearch_45"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wangfeng8317/article/details/2032192" target="_blank" title="带条件的添加语句(insert +where 条件)">
+		<h4 class="text-truncate oneline">
+				带条件的添加语句(insert +<em>where</em> 条件)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					2579</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wangfeng8317/article/details/2032192" target="_blank" title="带条件的添加语句(insert +where 条件)">
+				<span class="desc oneline">if((selectcount(*)fromwfwhereid=2)=0)insertintowfvalues(2,sdf,sdgghh,fgfg,gfghj) </span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wangfeng8317">来自：	<span class="blog_title"> 风雨小站</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/zwxiaole/article/details/84597554,BlogCommendFromQuerySearch_46"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/zwxiaole/article/details/84597554,BlogCommendFromQuerySearch_46"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/zwxiaole/article/details/84597554" target="_blank" title="关于 where条件下加了子查询 导致速度巨慢的解决方案">
+		<h4 class="text-truncate oneline">
+				关于 <em>where</em>条件下加了子查询 导致速度巨慢的解决方案		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">05-08</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					538</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/zwxiaole/article/details/84597554" target="_blank" title="关于 where条件下加了子查询 导致速度巨慢的解决方案">
+				<span class="desc oneline">问题源自一个sql代码selectcount(1)&amp;quot;rwsl&amp;quot;,count(decode(xx.FPSJ,null,null,1))&amp;quot;fpsl&amp;quot;,count(d...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/zwxiaole">来自：	<span class="blog_title"> zwxiaole的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/YABIGNSHI/article/details/52126133,BlogCommendFromQuerySearch_47"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/YABIGNSHI/article/details/52126133,BlogCommendFromQuerySearch_47"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/YABIGNSHI/article/details/52126133" target="_blank" title="针对where条件中日期型字段前面加函数的慢查询的优化">
+		<h4 class="text-truncate oneline">
+				针对<em>where</em>条件中日期型<em>字段</em>前面加函数的慢查询的优化		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-05</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					5863</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/YABIGNSHI/article/details/52126133" target="_blank" title="针对where条件中日期型字段前面加函数的慢查询的优化">
+				<span class="desc oneline">当字段上创建了索引，但是where条件中该列前面加了函数时，会使索引失效。有时候可以通过改写sql来优化。如：selectcount(*)fromT_SYNCLOGwhereTO_DAYS(NOW()...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/YABIGNSHI">来自：	<span class="blog_title"> 雅冰石的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/heisetoufa/article/details/83265421,BlogCommendFromQuerySearch_48"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/heisetoufa/article/details/83265421,BlogCommendFromQuerySearch_48"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/heisetoufa/article/details/83265421" target="_blank" title="动态拼凑sql语句，where条件后的变量不是固定的解决办法">
+		<h4 class="text-truncate oneline">
+				动态拼凑sql语句，<em>where</em>条件后的变量不是固定的解决办法		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">08-12</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					348</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/heisetoufa/article/details/83265421" target="_blank" title="动态拼凑sql语句，where条件后的变量不是固定的解决办法">
+				<span class="desc oneline">非常感谢不想要昵称，老紫竹群里的每个人都是那么的热情，只要我需要他们的时候，他们就会及时出现我遇到个需求，在List里装着不知道几个字段，现在这些个字段都需要用在sql语句的where条件后，这样wh...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/heisetoufa">来自：	<span class="blog_title"> 黑色头发</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/sunny05296/article/details/78778524,BlogCommendFromQuerySearch_49"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/sunny05296/article/details/78778524,BlogCommendFromQuerySearch_49"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/sunny05296/article/details/78778524" target="_blank" title="Oracle数据库常用where进行日期比较">
+		<h4 class="text-truncate oneline">
+				<em>Oracle</em>数据库常用<em>where</em>进行日期比较		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-12</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					3144</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/sunny05296/article/details/78778524" target="_blank" title="Oracle数据库常用where进行日期比较">
+				<span class="desc oneline">Oracle比较字符串是根据ASCII进行的比较，第一个字母的ASCII大小比较，如果相等再比较下一个，依次类推。字符串和数字进行操作是会报异常的，因为类型不一样不能进行比较。但是，Oracle在执行...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/sunny05296">来自：	<span class="blog_title"> sunny05296的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/VBcom/article/details/7245186,BlogCommendHotData_0"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/VBcom/article/details/7245186,BlogCommendHotData_0"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+		<h4 class="text-truncate oneline">
+				DirectX修复工具增强版		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">02-09</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					206万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/VBcom/article/details/7245186" target="_blank" title="DirectX修复工具增强版">
+				<span class="desc oneline">最后更新：2019-5-26
+
+DirectX修复工具最新版：DirectX Repair V3.8 增强版NEW!
+
+版本号：V3.8.0.11638
+
+大小: 107MB/7z格式压缩，189MB...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/VBcom">来自：	<span class="blog_title"> VBcom的专栏</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/bendanany/article/details/78891804,BlogCommendHotData_1"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/bendanany/article/details/78891804,BlogCommendHotData_1"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/bendanany/article/details/78891804" target="_blank" title="小白使用eclipse提交到GitHub (详细步骤)">
+		<h4 class="text-truncate oneline">
+				小白使用eclipse提交到GitHub (详细步骤)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">12-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					1万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/bendanany/article/details/78891804" target="_blank" title="小白使用eclipse提交到GitHub (详细步骤)">
+				<span class="desc oneline">GIT： https://github.com/
+
+首先登陆GITHub创建一个新的repository (Start a project)，复制地址备用。https://github.com/xxx...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/bendanany">来自：	<span class="blog_title"> bendanany的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/mx472756841/article/details/50535517,BlogCommendHotData_2"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/mx472756841/article/details/50535517,BlogCommendHotData_2"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/mx472756841/article/details/50535517" target="_blank" title="sublime text 3 + python配置，完整搭建及常用插件安装">
+		<h4 class="text-truncate oneline">
+				sublime text 3 + python配置，完整搭建及常用插件安装		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">01-18</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					11万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/mx472756841/article/details/50535517" target="_blank" title="sublime text 3 + python配置，完整搭建及常用插件安装">
+				<span class="desc oneline">    四年的时间，一直使用EmEditor编辑器进行Python开发，之前是做面向过程，只需要将一个单独的py文件维护好即可，用着也挺顺手，但是最近在做面向对象的开发，不同的py文件中相互关联较多，...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/mx472756841">来自：	<span class="blog_title"> 翘起尾巴的熊的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/wuchengzeng/article/details/50037611,BlogCommendHotData_3"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/wuchengzeng/article/details/50037611,BlogCommendHotData_3"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+		<h4 class="text-truncate oneline">
+				jquery/js实现一个网页同时调用多个倒计时(最新的)		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-25</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					54万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/wuchengzeng/article/details/50037611" target="_blank" title="jquery/js实现一个网页同时调用多个倒计时(最新的)">
+				<span class="desc oneline">jquery/js实现一个网页同时调用多个倒计时(最新的)
+
+最近需要网页添加多个倒计时. 查阅网络,基本上都是千遍一律的不好用. 自己按需写了个.希望对大家有用. 有用请赞一个哦!
+
+
+
+//js
+...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/wuchengzeng">来自：	<span class="blog_title"> Websites</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/qq574857122/article/details/16361033,BlogCommendHotData_4"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/qq574857122/article/details/16361033,BlogCommendHotData_4"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+		<h4 class="text-truncate oneline">
+				强连通分量及缩点tarjan算法解析		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">11-16</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					66万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/qq574857122/article/details/16361033" target="_blank" title="强连通分量及缩点tarjan算法解析">
+				<span class="desc oneline">强连通分量：
+简言之 就是找环（每条边只走一次，两两可达）
+孤立的一个点也是一个连通分量 
+ 
+使用tarjan算法 在嵌套的多个环中优先得到最大环( 最小环就是每个孤立点）
+ 
+定义：
+int Ti...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/qq574857122">来自：	<span class="blog_title"> 九野的博客</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+<div class="recommend-item-box type_blog clearfix" data-track-view='{"mod":"popu_387","con":",https://blog.csdn.net/bob601450868/article/details/52073805,BlogCommendHotData_5"}' data-track-click='{"mod":"popu_387","con":",https://blog.csdn.net/bob601450868/article/details/52073805,BlogCommendHotData_5"}'>
+	<div class="content">
+		<a href="https://blog.csdn.net/bob601450868/article/details/52073805" target="_blank" title="Spark2学习1之基本环境搭建（win）问题">
+		<h4 class="text-truncate oneline">
+				Spark2学习1之基本环境搭建（win）问题		</h4>
+		<div class="info-box d-flex align-content-center">
+			<p class="date-and-readNum oneline">
+				<span class="date hover-show">07-30</span>
+				<span class="read-num hover-hide">
+					阅读数 
+					6万+</span>
+				</p>
+			</div>
+		</a>
+		<p class="content">
+			<a href="https://blog.csdn.net/bob601450868/article/details/52073805" target="_blank" title="Spark2学习1之基本环境搭建（win）问题">
+				<span class="desc oneline">更多代码请见：https://github.com/xubo245/SparkLearning  版本：Spark-2.0.01解释 
+从【2】中下载release版，idea打开mvn packag...</span>
+			</a>
+			<span class="blog_title_box oneline ">
+									<span class="type-show type-show-blog type-show-after">博文</span>
+											<a target="_blank" href="https://blog.csdn.net/bob601450868">来自：	<span class="blog_title"> Keep Learning</span></a>
+												</span>
+		</p>
+	</div>
+	</div>
+
+	
+	
+                <div class="recommend-item-box type_hot_word">
+                                <div class="content clearfix">
+                    <div class="word float-left">
+                                                            <span>
+                        <a href="https://edu.csdn.net/courses/o5329_s5330_k " target="_blank">
+                        机器学习教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/courses/o280_s351_k " target="_blank">
+                        Objective-C培训                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o7115_s388_l0_t " target="_blank">
+                        交互设计视频教程                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/course/play/5599/104252 " target="_blank">
+                        颜色模型                    </a></span>
+                                                                                <span>
+                        <a href="https://edu.csdn.net/combos/o363_l0_t " target="_blank">
+                        设计制作学习                    </a></span>
+                                                            </div>
+                </div>
+                                                <div class="content clearfix">
+                    <div class="float-left">
+                                        <span>
+                        <a href="https://www.csdn.net/gather_24/MtTaEg3sMDM5MS1ibG9n.html" target="_blank">
+                        mysql关联查询两次本表</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_10/MtjaIg3sMTUzMy1kb3dubG9hZAO0O0OO0O0O.html" target="_blank">
+                        native底部 react</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_1b/Ntzagg1sOTU3LWRvd25sb2Fk.html" target="_blank">
+                        extjs glyph 图标</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_4a/NtzaYgwsMTMtZWR1.html" target="_blank">
+                        java类中班级的字段</a>
+                    </span>
+                                        <span>
+                        <a href="https://www.csdn.net/gather_4a/NtDaYg3sODYtZWR1.html" target="_blank">
+                        大数据加机器学习</a>
+                    </span>
+                                        </div>
+                </div>
+                                </div>
+                            <div class="recommend-loading-box">
+                <img src='https://csdnimg.cn/release/phoenix/images/feedLoading.gif'>
+            </div>
+            <div class="recommend-end-box">
+                <p class="text-center">没有更多推荐了，<a href="https://blog.csdn.net/" target="_blank" rel="noopener" class="c-blue c-blue-hover c-blue-focus">返回首页</a></p>
+            </div>
+        </div>
+    </main>
+
+    <aside>
+	<div id="asideProfile" class="aside-box">
+    <!-- <h3 class="aside-title">个人资料</h3> -->
+    <div class="profile-intro d-flex">
+        <div class="avatar-box d-flex justify-content-center flex-column">
+            <a href="https://blog.csdn.net/chiweitree" target="_blank" rel="noopener">
+              <img src="https://avatar.csdn.net/2/A/F/3_chiweitree.jpg" class="avatar_pic">
+                              <img src="https://g.csdnimg.cn/static/user-reg-year/1x/10.png" class="user-years">
+                          </a>
+            
+        </div>
+        <div class="user-info d-flex justify-content-center flex-column">
+            <p class="name csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a href="https://blog.csdn.net/chiweitree" target="_blank" class="" id="uid">chiweitree</a>
+            </p>
+                          <p class="flag expert">
+                <svg class="icon" aria-hidden="true">
+                  <use xlink:href="#csdnc-blogexpert"></use>
+                </svg>
+                博客专家
+              </p>
+                    </div>
+                <div class="opt-box d-flex justify-content-center flex-column">
+            <span  class="csdn-tracking-statistics tracking-click" data-mod="popu_379">
+                <a class="btn btn-sm btn-red-hollow attention" id="btnAttent">关注</a>
+            </span>
+        </div>
+            </div>
+    <div class="data-info d-flex item-tiling">
+                <dl class="text-center" title="219">
+                        <dt><a href="https://blog.csdn.net/simonchi?t=1" target="_blank" rel="noopener">原创</a></dt>
+            <dd><a href="https://blog.csdn.net/simonchi?t=1" target="_blank" rel="noopener"><span class="count">219</span></a></dd>
+                    </dl>
+        <dl class="text-center" id="fanBox" title="154">
+            <dt>粉丝</dt>
+            <dd><span class="count" id="fan">154</span></dd>
+        </dl>
+        <dl class="text-center" title="190">
+            <dt>喜欢</dt>
+            <dd><span class="count">190</span></dd>
+        </dl>
+        <dl class="text-center" title="157">
+            <dt>评论</dt>
+            <dd><span class="count">157</span></dd>
+        </dl>
+    </div>
+    <div class="grade-box clearfix">
+        <dl>
+            <dt>等级：</dt>
+            <dd>
+                <a href="https://blog.csdn.net/home/help.html#level" title="6级,点击查看等级说明" target="_blank">
+                    <svg class="icon icon-level" aria-hidden="true">
+                        <use xlink:href="#csdnc-bloglevel-6"></use>
+                    </svg>
+                </a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>访问：</dt>
+            <dd title="660945">
+                66万+            </dd>
+        </dl>
+        <dl>
+            <dt>积分：</dt>
+            <dd title="8942">
+                8942            </dd>
+        </dl>
+        <dl title="3762">
+            <dt>排名：</dt>
+            <dd>3762</dd>
+        </dl>
+    </div>
+        <div class="badge-box d-flex">
+        <span>勋章：</span>
+        <div class="badge d-flex">
+                                                        <div class="icon-badge" title="Github">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/github.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/github.svg" alt="">
+                                   <p>Github</p>
+                               </div>
+                               <div class="right-box">
+                                   绑定github第三方账户获取                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                                             <div class="icon-badge" title="持之以恒">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/chizhiyiheng.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/chizhiyiheng.svg" alt="">
+                                   <p>持之以恒</p>
+                               </div>
+                               <div class="right-box">
+                                   授予每个自然月内发布4篇或4篇以上原创或翻译IT博文的用户。不积跬步无以至千里，不积小流无以成江海，程序人生的精彩需要坚持不懈地积累！                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                                             <div class="icon-badge" title="勤写标兵Lv1">
+                       <div class="mouse-box">
+                          <img src="https://g.csdnimg.cn/static/user-medal/qinxiebiaobing_l1_t1.svg" alt="">
+                          <div class="icon-arrow"></div>
+                       </div>
+                       <div class="grade-detail-box">
+                           <div class="pos-box">
+                               <div class="left-box d-flex justify-content-center align-items-center flex-column">
+                                    <img src="https://g.csdnimg.cn/static/user-medal/qinxiebiaobing_l1_t1.svg" alt="">
+                                   <p>勤写标兵Lv1</p>
+                               </div>
+                               <div class="right-box">
+                                   授予每个自然周发布1篇到3篇原创IT博文的用户。本勋章将于次周上午根据用户上周的博文发布情况由系统自动颁发。                               </div>
+                           </div>
+                       </div>
+                   </div>
+                                             </div>
+        <script>
+            (function ($) {
+                setTimeout(function(){
+                    $('div.icon-badge.show-moment').removeClass('show-moment');
+                }, 5000);
+            })(window.jQuery)
+        </script>
+    </div>
+    </div>
+<!--自定义模块-->
+<div id="asideCustom37773587" class="aside-box custom-box">
+    <h3 class="aside-title">新浪微博</h3>
+    <div class="aside-content clearfix">
+        
+<a href="http://weibo.com/cwtree" target="_blank">三也_攻城狮</a>
+    </div>
+</div>
+<div id="asideArchive" class="aside-box flexible-box">
+    <h3 class="aside-title">归档</h3>
+    <div class="aside-content">
+        <ul class="archive-list">
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2019/05" target="_blank" rel="noopener">
+                    2019年5月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2019/03" target="_blank" rel="noopener">
+                    2019年3月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2019/01" target="_blank" rel="noopener">
+                    2019年1月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/12" target="_blank" rel="noopener">
+                    2018年12月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/10" target="_blank" rel="noopener">
+                    2018年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/07" target="_blank" rel="noopener">
+                    2018年7月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/05" target="_blank" rel="noopener">
+                    2018年5月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/04" target="_blank" rel="noopener">
+                    2018年4月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2018/01" target="_blank" rel="noopener">
+                    2018年1月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/11" target="_blank" rel="noopener">
+                    2017年11月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/08" target="_blank" rel="noopener">
+                    2017年8月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/05" target="_blank" rel="noopener">
+                    2017年5月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/03" target="_blank" rel="noopener">
+                    2017年3月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/02" target="_blank" rel="noopener">
+                    2017年2月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2017/01" target="_blank" rel="noopener">
+                    2017年1月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/12" target="_blank" rel="noopener">
+                    2016年12月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/10" target="_blank" rel="noopener">
+                    2016年10月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/08" target="_blank" rel="noopener">
+                    2016年8月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/07" target="_blank" rel="noopener">
+                    2016年7月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/05" target="_blank" rel="noopener">
+                    2016年5月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/04" target="_blank" rel="noopener">
+                    2016年4月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2016/01" target="_blank" rel="noopener">
+                    2016年1月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/12" target="_blank" rel="noopener">
+                    2015年12月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/11" target="_blank" rel="noopener">
+                    2015年11月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/10" target="_blank" rel="noopener">
+                    2015年10月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/08" target="_blank" rel="noopener">
+                    2015年8月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/07" target="_blank" rel="noopener">
+                    2015年7月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/06" target="_blank" rel="noopener">
+                    2015年6月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/05" target="_blank" rel="noopener">
+                    2015年5月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/04" target="_blank" rel="noopener">
+                    2015年4月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/03" target="_blank" rel="noopener">
+                    2015年3月                    <span class="count float-right">24篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/02" target="_blank" rel="noopener">
+                    2015年2月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2015/01" target="_blank" rel="noopener">
+                    2015年1月                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/12" target="_blank" rel="noopener">
+                    2014年12月                    <span class="count float-right">11篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/11" target="_blank" rel="noopener">
+                    2014年11月                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/10" target="_blank" rel="noopener">
+                    2014年10月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/09" target="_blank" rel="noopener">
+                    2014年9月                    <span class="count float-right">9篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/08" target="_blank" rel="noopener">
+                    2014年8月                    <span class="count float-right">13篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/07" target="_blank" rel="noopener">
+                    2014年7月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2014/06" target="_blank" rel="noopener">
+                    2014年6月                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/12" target="_blank" rel="noopener">
+                    2013年12月                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/11" target="_blank" rel="noopener">
+                    2013年11月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/10" target="_blank" rel="noopener">
+                    2013年10月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/09" target="_blank" rel="noopener">
+                    2013年9月                    <span class="count float-right">8篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/08" target="_blank" rel="noopener">
+                    2013年8月                    <span class="count float-right">13篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/07" target="_blank" rel="noopener">
+                    2013年7月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/06" target="_blank" rel="noopener">
+                    2013年6月                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/05" target="_blank" rel="noopener">
+                    2013年5月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/04" target="_blank" rel="noopener">
+                    2013年4月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/03" target="_blank" rel="noopener">
+                    2013年3月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/02" target="_blank" rel="noopener">
+                    2013年2月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2013/01" target="_blank" rel="noopener">
+                    2013年1月                    <span class="count float-right">4篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2012/12" target="_blank" rel="noopener">
+                    2012年12月                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2012/11" target="_blank" rel="noopener">
+                    2012年11月                    <span class="count float-right">30篇</span>
+                </a>
+            </li>
+                        <!--归档统计-->
+            <li>
+                <a href="https://blog.csdn.net/chiweitree/article/month/2012/10" target="_blank" rel="noopener">
+                    2012年10月                    <span class="count float-right">14篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideNewArticle" class="aside-box">
+    <h3 class="aside-title">最新文章</h3>
+    <div class="aside-content">
+        <ul class="inf_list clearfix csdn-tracking-statistics tracking-click" data-mod="popu_382">
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/chiweitree/article/details/90437848" target="_blank">【JAVA】阻塞队列如何实现？分析JDK 阻塞队列源码实现</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/chiweitree/article/details/88832734" target="_blank">【设计模式】设计模式，持续深入</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/chiweitree/article/details/85709035" target="_blank">【JAVA】Webmagic 爬虫框架，带着问题解读源码</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/chiweitree/article/details/85334094" target="_blank">【FASTDFS】fastdfs上传文件报错 org.csource.common.MyException: getStoreStorage fail, errno code: 28 解决方法</a>
+            </li>
+                        <li class="clearfix">
+                <a href="https://blog.csdn.net/chiweitree/article/details/85111264" target="_blank">【问题记录】JAVA进程启动大概率卡住6分钟左右，应用日志没有任何WARN  ERROR，系统日志也没有发现和进程相关日志，最后定位TOMCAT  SHA1PRNG耗时太长</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+<div id="asideCategory" class="aside-box flexible-box">
+    <h3 class="aside-title">个人分类</h3>
+    <div class="aside-content">
+        <ul>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1271344" target="_blank" rel="noopener">
+                    <span class="title oneline">设计模式</span>
+                    <span class="count float-right">12篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1276775" target="_blank" rel="noopener">
+                    <span class="title oneline">求助</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1277496" target="_blank" rel="noopener">
+                    <span class="title oneline">性能优化</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1369746" target="_blank" rel="noopener">
+                    <span class="title oneline">Oracle</span>
+                    <span class="count float-right">19篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1377223" target="_blank" rel="noopener">
+                    <span class="title oneline">Java</span>
+                    <span class="count float-right">112篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1389698" target="_blank" rel="noopener">
+                    <span class="title oneline">Linux</span>
+                    <span class="count float-right">15篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1581249" target="_blank" rel="noopener">
+                    <span class="title oneline">JVM</span>
+                    <span class="count float-right">6篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/1862025" target="_blank" rel="noopener">
+                    <span class="title oneline">spring</span>
+                    <span class="count float-right">9篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2303541" target="_blank" rel="noopener">
+                    <span class="title oneline">maven</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2417075" target="_blank" rel="noopener">
+                    <span class="title oneline">memcached</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2424937" target="_blank" rel="noopener">
+                    <span class="title oneline">开发问题实录</span>
+                    <span class="count float-right">7篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2434763" target="_blank" rel="noopener">
+                    <span class="title oneline">Jetty</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2487915" target="_blank" rel="noopener">
+                    <span class="title oneline">安全</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2504425" target="_blank" rel="noopener">
+                    <span class="title oneline">机器学习</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2514203" target="_blank" rel="noopener">
+                    <span class="title oneline">代码大全</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2565063" target="_blank" rel="noopener">
+                    <span class="title oneline">webservice</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2593667" target="_blank" rel="noopener">
+                    <span class="title oneline">rabbitmq</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2820903" target="_blank" rel="noopener">
+                    <span class="title oneline">Flume</span>
+                    <span class="count float-right">24篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2834991" target="_blank" rel="noopener">
+                    <span class="title oneline">kafka</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2835965" target="_blank" rel="noopener">
+                    <span class="title oneline">hadoop</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2852547" target="_blank" rel="noopener">
+                    <span class="title oneline">zookeeper</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2911875" target="_blank" rel="noopener">
+                    <span class="title oneline">架构</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2912209" target="_blank" rel="noopener">
+                    <span class="title oneline">hbase</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2916543" target="_blank" rel="noopener">
+                    <span class="title oneline">hdfs</span>
+                    <span class="count float-right">2篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/2917355" target="_blank" rel="noopener">
+                    <span class="title oneline">随笔</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/3073259" target="_blank" rel="noopener">
+                    <span class="title oneline">storm</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/3074065" target="_blank" rel="noopener">
+                    <span class="title oneline">redis</span>
+                    <span class="count float-right">5篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/5733487" target="_blank" rel="noopener">
+                    <span class="title oneline">NFS</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/5979291" target="_blank" rel="noopener">
+                    <span class="title oneline">MongoDB</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/6649374" target="_blank" rel="noopener">
+                    <span class="title oneline">Nginx</span>
+                    <span class="count float-right">3篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/7433104" target="_blank" rel="noopener">
+                    <span class="title oneline">DPI</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/7594117" target="_blank" rel="noopener">
+                    <span class="title oneline">LVS</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/7594118" target="_blank" rel="noopener">
+                    <span class="title oneline">Keepalived</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                        <li>
+                <a class="clearfix" href="https://blog.csdn.net/chiweitree/article/category/7835097" target="_blank" rel="noopener">
+                    <span class="title oneline">F5</span>
+                    <span class="count float-right">1篇</span>
+                </a>
+            </li>
+                    </ul>
+    </div>
+        <p class="text-center">
+        <a class="btn btn-link-blue flexible-btn" data-fbox="aside-archive">展开</a>
+    </p>
+    </div>
+<div id="asideHotArticle" class="aside-box">
+	<h3 class="aside-title">热门文章</h3>
+	<div class="aside-content">
+		<ul class="hotArticle-list csdn-tracking-statistics tracking-click" data-mod="popu_521">
+							<li>
+					<a href="https://blog.csdn.net/chiweitree/article/details/41722511" target="_blank" rel="noopener">通过tcpdump抓取 指定 ip  端口  的网络数据，并通过wireshark分析网络数据，很实用</a>
+					<p class="read">阅读数 <span>36855</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/chiweitree/article/details/52922887" target="_blank" rel="noopener">【JVM】初识JAVA工具JMC，java mission control，飞行记录器（黑匣子），IBM heapAnalyzer使用</a>
+					<p class="read">阅读数 <span>17269</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/chiweitree/article/details/38926817" target="_blank" rel="noopener">XStream实现xml和java对象之间的互相转换(包括对属性，别名，下划线_的处理)，同理JSON也可以</a>
+					<p class="read">阅读数 <span>16754</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/chiweitree/article/details/56276878" target="_blank" rel="noopener">【JAVA】系统唯一ID生成方案讨论</a>
+					<p class="read">阅读数 <span>16467</span></p>
+				</li>
+							<li>
+					<a href="https://blog.csdn.net/chiweitree/article/details/52231674" target="_blank" rel="noopener">【Redis】Redis的Pipeline管道，批量操作，节省大量网络往返时间</a>
+					<p class="read">阅读数 <span>12820</span></p>
+				</li>
+					</ul>
+	</div>
+</div>
+<div id="asideNewComments" class="aside-box">
+    <h3 class="aside-title">最新评论</h3>
+    <div class="aside-content">
+        <ul class="newcomment-list">
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/chiweitree/article/details/53944308#comments">【Nginx】Nginx多级代理，...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/sinat_36372967" class="user-name" target="_blank">sinat_36372967：</a>在第一级设置一个自定义ip头信息就可以了...                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/chiweitree/article/details/45365377#comments">【Flume】flume ng中H...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/u012602292" class="user-name" target="_blank">u012602292：</a>哥们, Constants的修改贴上来啊                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/chiweitree/article/details/41844955#comments">【【【【【#####&gt;&gt...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/chiweitree" class="user-name" target="_blank">chiweitree：</a>[reply]panda561[/reply]
+we私                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/chiweitree/article/details/41844955#comments">【【【【【#####&gt;&gt...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/panda561" class="user-name" target="_blank">panda561：</a>要不要来阿里试试？                </p>
+            </li>
+                        <li>
+                <a class="title text-truncate" target="_blank" href="https://blog.csdn.net/chiweitree/article/details/10537453#comments">Spring中IOC和AOP的详细...</a>
+                <p class="comment ellipsis">
+                    <a href="https://my.csdn.net/qq_39590763" class="user-name" target="_blank">qq_39590763：</a>[reply]qq_39590763[/reply]
+好吧，好像面向方面编程也ok的                </p>
+            </li>
+                    </ul>
+    </div>
+</div>
+	<div id="asideFooter">
+				<div class="aside-box">
+			<div class="persion_article">
+			</div>
+		</div>
+	</div>
+</aside>
+<script src="https://csdnimg.cn/pubfooter/js/publib_footer-1.0.3.js" data-isfootertrack="false" type="text/javascript"></script>
+<script>
+	$("a.flexible-btn").click(function(){
+		$(this).parents('div.aside-box').removeClass('flexible-box');
+		$(this).remove();
+	})
+</script>
+</div>
+<div class="mask-dark"></div>
+<div class="tool-box vertical">
+	<ul class="meau-list">
+		<li class="btn-like-box ">
+			<button class=" low-height hover-box btn-like " title="点赞">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-thumbsup"></use>
+				</svg>
+				<span class="hover-show text-box text">
+					<span class="no-active">点赞</span>
+					<span class="active">取消点赞</span>
+				</span>
+				<p>0</p>
+			</button>
+		</li>
+		<li class="to-commentBox">
+						<a class="btn-comments low-height hover-box" title="写评论" href="#commentBox">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-comments"></use>
+				</svg>
+				<span class="hover-show text">评论</span>
+				<p class="">
+										</p>
+			</a>
+		</li>
+		<li class="toc-container-box" id="liTocBox">
+			<a class="btn-toc low-height hover-box btn-comments" title="目录">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-contents"></use>
+				</svg>
+				<span class="hover-show text">目录</span>
+			</a>
+			<div class="toc-container">
+				<div class="pos-box">
+					<div class="icon-arrow"></div>
+					<div class="scroll-box">
+						<div class="toc-box"></div>
+					</div>
+				</div>
+				<div class="opt-box">
+					<button class="btn-opt prev nomore" title="向上">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronup"></use>
+						</svg>
+					</button>
+					<button class="btn-opt next">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#csdnc-chevrondown"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</li>
+		<li>
+			<a class="btn-bookmark low-height hover-box btn-comments" title="收藏">
+				<svg class="icon active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark-ok"></use>
+				</svg>
+				<svg class="icon no-active hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-bookmark"></use>
+				</svg>
+					<span class="hover-show text">收藏</span>
+				<!-- <span class="hover-show text-box text">
+					<span class="no-active">收藏</span>
+					<span class="active">取消收藏</span>
+				</span> -->
+			</a>
+		</li>
+		<li class="bdsharebuttonbox">
+			<div class="weixin-qr btn-comments low-height hover-box" >
+        <a href="#" class="bds_weixin clear-share-style" data-cmd="weixin" title="手机看"></a>
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-usephone"></use>
+				</svg>
+				<span class="hover-show text text3">
+					手机看
+				</span>
+			</div>
+		</li>
+							<li class="widescreen-hide">
+				<a class="prev btn-comments low-height hover-box" href="https://blog.csdn.net/simonchi/article/details/8290413" target="_blank" rel="noopener" title="oracle中的正则表达式">
+					<svg class="icon hover-hide" aria-hidden="true">
+						<use xlink:href="#csdnc-chevronleft"></use>
+					</svg>
+					<span class="hover-show text text3">上一篇</span>
+				</a>
+			</li>
+								<li class="widescreen-hide">
+			<a class="next btn-comments hover-box low-height" href="https://blog.csdn.net/simonchi/article/details/8349820" target="_blank" rel="noopener" title="Oracle  DB  JOB使用">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-chevronright"></use>
+				</svg>
+				<span class="hover-show text text3">下一篇</span>
+			</a>
+		</li>
+						<!-- 宽屏更多按钮 -->
+		<li class="widescreen-more">
+			<a class="btn-comments chat-ask-button low-height hover-box" title="快问" href="#chatqa">
+				<svg class="icon hover-hide" aria-hidden="true">
+					<use xlink:href="#csdnc-more"></use>
+				</svg>
+				<span class="hover-show text">更多</span>
+				
+			</a>
+			<ul class="widescreen-more-box">
+													<li class="widescreen-more">
+						<a class="btn-comments low-height hover-box" href="https://blog.csdn.net/simonchi/article/details/8290413" target="_blank" rel="noopener" title="oracle中的正则表达式">
+							<svg class="icon hover-hide" aria-hidden="true">
+								<use xlink:href="#csdnc-chevronleft"></use>
+							</svg>
+							<span class="hover-show text text3">上一篇</span>
+						</a>
+					</li>
+																<li class="widescreen-more">
+					<a class="btn-comments hover-box low-height" href="https://blog.csdn.net/simonchi/article/details/8349820" target="_blank" rel="noopener" title="Oracle  DB  JOB使用">
+						<svg class="icon hover-hide" aria-hidden="true">
+							<use xlink:href="#csdnc-chevronright"></use>
+						</svg>
+						<span class="hover-show text text3">下一篇</span>
+					</a>
+				</li>
+							</ul>
+		</li>
+	</ul>
+</div>
+<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "1", "bdMiniList": false, "bdPic": "", "bdStyle": "0", "bdSize": "16" }, "share": {} }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'https://csdnimg.cn/static/api/js/share.js?v=89860594'];</script>
+<script>
+    var recommendCount = 55;
+    recommendCount = recommendCount > 1 ? (recommendCount + (recommendCount>6 ? 2 : 1)) : recommendCount;
+    var ChannelId = 6;
+    var articleId = "8290612";
+    var commentscount = 0;
+    var islock = false;
+    var curentUrl = "https://blog.csdn.net/simonchi/article/details/8290612";
+    var myUrl = "https://my.csdn.net/";
+    //1禁止评论，2正常
+    var commentAuth = 2;
+    //百度搜索
+    var baiduKey = "oracle    xxx(+)   where中在字段后面加（+） - 三也_攻城狮";
+    var needInsertBaidu = true;
+    // 代码段样式
+    var codeStyle = '';
+	var highlight = ["oracle","xxx","where","\u5b57\u6bb5","\u540e\u9762"];//高亮数组
+
+    var RecommendBlogExpertList = [{"user_name":"iteye_14994","nick_name":"iteye_14994","avatar":"https:\/\/avatar.csdn.net\/A\/E\/1\/3_iteye_14994.jpg","is_expert":false,"article_count":0,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"u010752082","nick_name":"u010752082","avatar":"https:\/\/avatar.csdn.net\/1\/C\/B\/3_u010752082.jpg","is_expert":false,"article_count":149,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"qq_26171035","nick_name":"\u9c7c\u7247\u6a59\u5b50","avatar":"https:\/\/avatar.csdn.net\/5\/6\/0\/3_qq_26171035.jpg","is_expert":false,"article_count":56,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"work201003","nick_name":"\u62c9\u6590\u5c14-Raphael","avatar":"https:\/\/avatar.csdn.net\/5\/7\/5\/3_work201003.jpg","is_expert":false,"article_count":202,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"qq_33666602","nick_name":"\u7231\u7801\u50e7","avatar":"https:\/\/avatar.csdn.net\/E\/7\/4\/3_qq_33666602.jpg","is_expert":false,"article_count":54,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"machinecat0898","nick_name":"machinecat0898","avatar":"https:\/\/avatar.csdn.net\/2\/0\/C\/3_machinecat0898.jpg","is_expert":false,"article_count":107,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"CQL_K21","nick_name":"CQL_K21","avatar":"https:\/\/avatar.csdn.net\/E\/D\/B\/3_cql_k21.jpg","is_expert":false,"article_count":440,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"Ideality_hunter","nick_name":"Ideality_hunter","avatar":"https:\/\/avatar.csdn.net\/F\/E\/E\/3_ideality_hunter.jpg","is_expert":false,"article_count":999,"rank":"156"},{"user_name":"zhengjianqi","nick_name":"samzheng99","avatar":"https:\/\/avatar.csdn.net\/A\/6\/2\/3_zhengjianqi.jpg","is_expert":false,"article_count":82,"rank":"\u5343\u91cc\u4e4b\u5916"},{"user_name":"yuzhaocong","nick_name":"yuzhaocong","avatar":"https:\/\/avatar.csdn.net\/C\/2\/F\/3_yuzhaocong.jpg","is_expert":false,"article_count":90,"rank":"\u5343\u91cc\u4e4b\u5916"}];
+	var articleType = 1;
+	var CopyrightContent = '本文为博主原创文章，未经博主允许不得转载。';
+</script>
+<script src="https://csdnimg.cn/public/sandalstrap/1.4/js/sandalstrap.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/vendor/pagination/paging.js"></script>
+
+<div style="display:none;">
+	<img src="" onerror='setTimeout(function(){if(!/(csdn.net|iteye.com|baiducontent.com|googleusercontent.com|360webcache.com|sogoucdn.com|bingj.com|baidu.com)$/.test(window.location.hostname)){window.location.href="\x68\x74\x74\x70\x73\x3a\x2f\x2f\x77\x77\x77\x2e\x63\x73\x64\x6e\x2e\x6e\x65\x74"}},3000);'>
+</div>
+</body>
+
+<!-- 高亮未与 markdown兼容  -->
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/chart.css" />
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/lib/chart.min.js"></script>
+	<script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/chart/widget2chart.js"></script>
+	<link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.3.9/ckeditor/plugins/codesnippet/lib/highlight/styles/atom-one-light.css">
+	<script type="text/javascript" src="https://csdnimg.cn/release/phoenix/production/pc_wap_common-45af74a22e.js" /></script>
+
+	<script type="text/javascript">
+
+	</script>
+
+<script src="https://csdnimg.cn/release/phoenix/template/js/common-0100d9c3da.min.js"></script>
+<script src="https://csdnimg.cn/release/phoenix/template/js/detail-050f326152.min.js"></script>
+
+	<script src="https://csdnimg.cn/release/phoenix/themes/skin3-template/skin3-template-fc7383b956.min.js"></script>
+<script>
+ // 全局声明
+ if (window.csdn === undefined) {
+      window.csdn = {};
+    }
+    window.csdn.sideToolbar = {
+        options: {
+            report:{
+                isShow: true,
+            },
+            afterFinished: function(){
+                setTimeout(function () {
+                    var viphtml = '<a class="option-box" data-type="vip" href="https://mall.csdn.net/vip" target="_blank">'+
+                        '<img src="https://g.csdnimg.cn/side-toolbar/1.2/images/vip.png" alt="" srcset="">'+
+                        '<span class="show-txt">VIP<br>免广告</span>'+
+                        '</a>';
+                    $('.csdn-side-toolbar').prepend(viphtml)
+                },300)
+            }
+        }
+    }
+
+    $(function(){
+        $(document).on('click',"a.option-box[data-type='report']",function() {
+            showReport(false,articleTitles)
+        });
+    })
+</script>
+<script src="https://g.csdnimg.cn/side-toolbar/1.2/side-toolbar.js"></script>
+
+    <script src="//g.csdnimg.cn/??login-box/1.0.6/login-box.js,login-box/1.0.5/login-auto.js,copyright/1.0.3/copyright.js,baidu-search/1.0.0/baidu-search.js?t=20190307095522"  type="text/javascript"></script>
+
+<script type="text/javascript" src="https://csdnimg.cn/release/blog_mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            "HTML-CSS": {
+                    linebreaks: { automatic: true, width: "94%container" },
+                    imageFont: null
+            },
+            tex2jax: {
+                preview: "none"
+            },
+            mml2jax: {
+                preview: 'none'
+            }
+    });
+</script>
+<script type="text/javascript">
+    </script>
+<script src="https://gh.bdstatic.com/static/gh/js/sdk/bword.min.js"></script>
+</html>

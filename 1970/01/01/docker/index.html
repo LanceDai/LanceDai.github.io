@@ -1,0 +1,84 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><title>docker | LanceDai's blog</title><meta name="description" content="docker"><meta name="keywords" content=""><meta name="author" content="Lance Dai"><meta name="copyright" content="Lance Dai"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="/img/logo.svg"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="canonical" href="https://www.blog.lancedai.cn/1970/01/01/docker/"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="docker"><meta name="twitter:description" content="docker"><meta name="twitter:image" content="https://www.blog.lancedai.cn/img/avatar.jpg"><meta property="og:type" content="article"><meta property="og:title" content="docker"><meta property="og:url" content="https://www.blog.lancedai.cn/1970/01/01/docker/"><meta property="og:site_name" content="LanceDai's blog"><meta property="og:description" content="docker"><meta property="og:image" content="https://www.blog.lancedai.cn/img/avatar.jpg"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="prev" title="css" href="https://www.blog.lancedai.cn/1970/01/01/css/"><link rel="next" title="kafka" href="https://www.blog.lancedai.cn/1970/01/01/kafka/"><link rel="stylesheet" href="https://fonts.lug.ustc.edu.cn/css?family=Titillium+Web"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight_copy: 'true',
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    title: '添加书签',
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天'
+
+  
+}</script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div class="auto_open" id="sidebar"><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"></div></div></div><div id="content-outer"><div id="top-container" style="background-image: url(https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/Photo/post.png)"><div id="page-header"><span class="pull-left"> <a class="blog_title" id="site-name" href="/">LanceDai's blog</a></span><div class="open toggle-menu pull-right"><div class="menu-icon-first"></div><div class="menu-icon-second"></div><div class="menu-icon-third"></div></div><span class="pull-right menus"><div class="mobile_author_icon"><img class="lozad" data-src="/img/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'"><div class="mobile_author-info__description">这是一个个人博客, 分享学习到的一切</div></div><hr><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> Home</span></a><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> Archives</span></a><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> Tags</span></a><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> Categories</span></a><script>document.body.addEventListener('touchstart', function(){ });</script></div></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title"><div class="posttitle">docker</div></div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 发表于 1970-01-01<span class="post-meta__separator">|</span><i class="fa fa-history" aria-hidden="true"></i> 更新于 2019-10-30</time><div class="post-meta-wordcount"><span>字数总计: </span><span class="word-count">573</span><span class="post-meta__separator">|</span><span>阅读时长: 3 分钟</span><span class="post-meta__separator">|</span><span>阅读量: </span><span id="busuanzi_value_page_pv"></span></div></div></div></div><div class="layout layout_post" id="content-inner">   <article id="post"><div class="article-container" id="post-content"><p>docker search mysql<br>
+docker pull mysql<br>
+docker run -p 3306:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql</p>
+<p>docker pull <a href="http://docker.elastic.co/elasticsearch/elasticsearch:6.4.2" target="_blank" rel="noopener">docker.elastic.co/elasticsearch/elasticsearch:6.4.2</a><br>
+docker run -p 9200:9200 -p 9300:9300 --name elasticsearch -e transport.host=0.0.0.0 -e discovery.zen.minimum_master_nodes=1 -e cluster.name=elasticsearch -d <a href="http://docker.elastic.co/elasticsearch/elasticsearch:6.4.2" target="_blank" rel="noopener">docker.elastic.co/elasticsearch/elasticsearch:6.4.2</a></p>
+<p>docker run</p>
+<p>-p &#x7AEF;&#x53E3;&#x6620;&#x5C04;</p>
+<p>-e &#x53C2;&#x6570;</p>
+<p>-d &#x4F5C;&#x4E3A;&#x5B88;&#x62A4;&#x8FDB;&#x7A0B;&#x6765;&#x8FD0;&#x884C;</p>
+<p>&#x2013;-name &#x5BB9;&#x5668;&#x540D;&#x5B57;</p>
+<p>&#x2013;-restart</p>
+<p>Docker&#x5BB9;&#x5668;&#x7684;&#x91CD;&#x542F;&#x7B56;&#x7565;&#x5982;&#x4E0B;&#xFF1A;</p>
+<p>no&#xFF0C;&#x9ED8;&#x8BA4;&#x7B56;&#x7565;&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x9000;&#x51FA;&#x65F6;&#x4E0D;&#x91CD;&#x542F;&#x5BB9;&#x5668;<br>
+on-failure&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x975E;&#x6B63;&#x5E38;&#x9000;&#x51FA;&#x65F6;&#xFF08;&#x9000;&#x51FA;&#x72B6;&#x6001;&#x975E;0&#xFF09;&#xFF0C;&#x624D;&#x4F1A;&#x91CD;&#x542F;&#x5BB9;&#x5668;<br>
+on-failure:3&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x975E;&#x6B63;&#x5E38;&#x9000;&#x51FA;&#x65F6;&#x91CD;&#x542F;&#x5BB9;&#x5668;&#xFF0C;&#x6700;&#x591A;&#x91CD;&#x542F;3&#x6B21;<br>
+always&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x9000;&#x51FA;&#x65F6;&#x603B;&#x662F;&#x91CD;&#x542F;&#x5BB9;&#x5668;<br>
+unless-stopped&#xFF0C;&#x5728;&#x5BB9;&#x5668;&#x9000;&#x51FA;&#x65F6;&#x603B;&#x662F;&#x91CD;&#x542F;&#x5BB9;&#x5668;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x8003;&#x8651;&#x5728;Docker&#x5B88;&#x62A4;&#x8FDB;&#x7A0B;&#x542F;&#x52A8;&#x65F6;&#x5C31;&#x5DF2;&#x7ECF;&#x505C;&#x6B62;&#x4E86;&#x7684;&#x5BB9;&#x5668;</p>
+<p>docker build</p>
+<p>-t tag &#x6807;&#x7B7E; &#x5373;REPOSITORY &#x7684;&#x540D;&#x5B57;</p>
+<p>.  &#x4F5C;&#x4E3A;&#x4E0A;&#x4E0B;&#x6587;&#xFF0C; &#x9ED8;&#x8BA4;DockerFIle&#x6587;&#x4EF6; &#x5C31;&#x53EB;DockerfIle</p>
+<p>Dockerfile</p>
+<p>FROM ubuntu //&#x6765;&#x81EA;&#x54EA;&#x4E2A;&#x955C;&#x50CF;<br>
+MAINTAINER lance //&#x4F5C;&#x8005;<br>
+RUN sed -i &#x2018;s/archive.ubuntu.com/mirrors.ustc.edu.cn/g&#x2019; /etc/apt/sources.list //&#x6362;&#x6E90;<br>
+RUN apt-get update //&#x6267;&#x884C;&#x547D;&#x4EE4;<br>
+RUN apt-get install -y nginx<br>
+COPY index.html /var/www/html //&#x4ECE;&#x5F53;&#x524D;&#x4E0A;&#x4E0B;&#x6587;copy&#x6587;&#x4EF6;&#x5230;&#x955C;&#x50CF;&#x6307;&#x5B9A;&#x8DEF;&#x5F84;<br>
+ENTRYPOINT [&quot;/usr/sbin/nginx&quot;, &#x201C;-g&#x201D;, &#x201C;daemon off;&#x201D;] //&#x5165;&#x53E3;&#xFF0C; &#x5BB9;&#x5668;&#x542F;&#x52A8;&#x6240;&#x6267;&#x884C;&#x7684;&#x547D;&#x4EE4;<br>
+EXPOSE 80 //&#x66B4;&#x9732;&#x7AEF;&#x53E3;</p>
+<p>sed</p>
+<p>-i &#x76F4;&#x63A5;&#x4FEE;&#x6539;&#x8BFB;&#x53D6;&#x7684;&#x6587;&#x4EF6;&#x5185;&#x5BB9;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x8F93;&#x51FA;&#x5230;&#x7EC8;&#x7AEF;&#x3002;</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sed -i &apos;s/&#x539F;&#x5B57;&#x7B26;&#x4E32;/&#x65B0;&#x5B57;&#x7B26;&#x4E32;/&apos; &#x6587;&#x4EF6;&#x8DEF;&#x5F84; eq&#xFF1A;/home/1.txt</span><br><span class="line">sed -i &apos;s/&#x539F;&#x5B57;&#x7B26;&#x4E32;/&#x65B0;&#x5B57;&#x7B26;&#x4E32;/g&apos; /home/1.txt</span><br><span class="line"></span><br><span class="line">g&#x4EE3;&#x8868;&#x5168;&#x5C40;&#x4FEE;&#x6539;</span><br></pre></td></tr></table></figure>
+<p>docker-compose</p>
+<p>&#x5F53;&#x524D;&#x76EE;&#x5F55;&#x4E00;&#x5B9A;&#x8981;&#x6709;docker-compose.yaml&#x6587;&#x4EF6;</p>
+<p>build &#x6784;&#x5EFA;&#x955C;&#x50CF;</p>
+<p>up -d &#x521B;&#x5EFA;&#x5BB9;&#x5668;&#x5E76;&#x8FD0;&#x884C; -d &#x540E;&#x53F0;&#x8FD0;&#x884C;</p>
+<p>log &#x8F93;&#x51FA;&#x65E5;&#x5FD7;</p>
+<p>ps &#x8F93;&#x51FA;&#x5BB9;&#x5668;&#x72B6;&#x6001;</p>
+<p>stop &#x505C;&#x6B62;&#x5BF9;&#x5E94;&#x5BB9;&#x5668;</p>
+<p>rm &#x5220;&#x9664;&#x5BF9;&#x5E94;&#x5BB9;&#x5668;</p>
+<p>template</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">version:</span> <span class="string">&apos;2&apos;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">networks:</span></span><br><span class="line"><span class="attr">  ghost:</span></span><br><span class="line"><span class="attr">services:</span></span><br><span class="line"><span class="attr">  ghost-app:</span></span><br><span class="line"><span class="attr">    build:</span> <span class="string">ghost</span> <span class="string">//&#x521B;&#x5EFA;&#x955C;&#x50CF;&#xFF0C;</span> <span class="string">&#x6839;&#x636E;&#x6307;&#x5B9A;&#x7684;&#x6587;&#x4EF6;&#x5939;&#xFF08;&#x5305;&#x542B;dockerFile&#xFF09;&#x7684;&#x4E0A;&#x4E0B;&#x6587;&#x73AF;&#x5883;&#x6784;&#x5EFA;</span></span><br><span class="line"><span class="attr">    networks:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">ghost</span></span><br><span class="line"><span class="attr">    depends_on:</span> <span class="string">//&#x4F9D;&#x8D56;</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">db</span></span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">&quot;2368:2368&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">  nginx:</span></span><br><span class="line"><span class="attr">    build:</span> <span class="string">nginx</span></span><br><span class="line"><span class="attr">    networks:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">ghost</span></span><br><span class="line"><span class="attr">    depends_on:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">ghost-app</span></span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">&quot;80:80&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="attr">  db:</span></span><br><span class="line"><span class="attr">    image:</span> <span class="string">&quot;mysql:5.7.15&quot;</span> <span class="string">//&#x62C9;&#x53D6;&#x76F8;&#x5E94;&#x955C;&#x50CF;</span></span><br><span class="line"><span class="attr">    networks:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">ghost</span></span><br><span class="line"><span class="attr">    environment:</span></span><br><span class="line"><span class="attr">      MYSQL_ROOT_PASSWORD:</span> <span class="string">mysqlroot</span></span><br><span class="line"><span class="attr">      MYSQL_USER:</span> <span class="string">ghost</span></span><br><span class="line"><span class="attr">      MYSQL_PASSWORD:</span> <span class="string">ghost</span></span><br><span class="line"><span class="attr">    volumes:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">$PWD/data:/var/lib/mysql</span></span><br><span class="line"><span class="attr">    ports:</span></span><br><span class="line"><span class="bullet">      -</span> <span class="string">&quot;3306:3306&quot;</span></span><br></pre></td></tr></table></figure>
+</div></article><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/avatar.jpg" data-sites="wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js@1.0.16/dist/js/social-share.min.js"></script></div></div><nav class="pagination_post" id="pagination"><div class="prev-post pull-left"><a href="/1970/01/01/css/"><img class="prev_cover lozad" data-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">上一篇</div><div class="prev_info"><span>css</span></div></a></div><div class="next-post pull-right"><a href="/1970/01/01/kafka/"><img class="next_cover lozad" data-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png" onerror="onerror=null;src='/img/404.jpg'"><div class="label">下一篇</div><div class="next_info"><span>kafka</span></div></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2018 - 2020 By Lance Dai</div><div class="framework-info"><span>驱动 </span><a href="http://hexo.io" target="_blank" rel="noopener"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 </span><a href="https://github.com/jerryc127/hexo-theme-butterfly" target="_blank" rel="noopener"><span>Butterfly</span></a></div><div class="footer_custom_text">Hi, welcome to my <a href="https://www.blog.lancedai.cn/">blog</a>!</div><div class="icp"><a href="http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action" target="_blank" rel="noopener"><span>浙ICP备18038331号-1</span></a></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><section class="rightside" id="rightside"><i class="fa fa-book" id="readmode" title="阅读模式"> </i><i class="fa fa-plus" id="font_plus" title="放大字体"></i><i class="fa fa-minus" id="font_minus" title="缩小字体"></i><i class="fa fa-moon-o nightshift" id="nightshift" title="夜间模式"></i></section><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script><script src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script type="text/x-mathjax-config">MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+    processEscapes: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+  },
+  CommonHTML: {
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "HTML-CSS": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  },
+  "SVG": { 
+    linebreaks: { automatic: true, width: "90% container" }
+  }
+});
+</script><script type="text/x-mathjax-config">MathJax.Hub.Queue(function() {
+  var all = MathJax.Hub.getAllJax(), i;
+  for (i=0; i < all.length; i += 1) {
+    all[i].SourceElement().parentNode.className += ' has-jax';
+  }
+});
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="/js/third-party/fireworks.js"></script><script src="/js/nightshift.js"></script><script id="ribbon" src="/js/third-party/canvas-ribbon.js" size="150" alpha="0.6" zIndex="-1" data-click="false"></script><script id="ribbon" src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/js/piao.js"></script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page@1.2.2/instantpage.min.js" type="module"></script></body></html>
